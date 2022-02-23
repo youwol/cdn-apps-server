@@ -1,0 +1,6 @@
+src/.virtualenv
+.idea
+.coverage
+src/youwol_utils
+**/__pycache__/**/*
+*.iml
