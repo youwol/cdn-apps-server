@@ -1,8 +1,8 @@
 
-from youwol_utils.servers.fast_api import serve, FastApiApp, FastApiRouter, AppConfiguration, \
+from youwol.utils.servers.fast_api import serve, FastApiApp, FastApiRouter, AppConfiguration, \
     select_configuration_from_command_line
 
-from youwol_cdn_apps_server import get_router
+from youwol.backends.cdn_apps_server import get_router
 
 async def local() -> AppConfiguration:
     from config_local import get_configuration
